@@ -14,11 +14,11 @@
     
 @endif
 <div class="container-fluid">
-    <p><a href="{{ route('dresses.create')}}">Add a New Dress</a></p>
+    <a href="{{ route('dresses.create')}}" class="btn btn-primary btn-lg mb-3">Add a New Dress</a>
     <table class="table">
         <thead>
           <tr>
-            <th scope="col">Id</th>
+            <th scope="col">ID</th>
             <th scope="col">Name</th>
             <th scope="col">Color</th>
             <th scope="col">Size</th>
@@ -37,7 +37,7 @@
                 <td>{{ $item->name }}</td>
                 <td>{{ $item->color }}</td>
                 <td>{{ $item->size }}</td>
-                <td>{{ $item->price }}</td>
+                <td>  € {{ $item->price }}</td>
                 <td>{{ $item->description }}</td>
                 <td>{{ $item->created_at }}</td>
                 <td>{{ $item->updated_at }}</td>
@@ -62,6 +62,7 @@
       </table>
 
 </div>
+
 
 
 

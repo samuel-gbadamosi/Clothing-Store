@@ -129,7 +129,7 @@ class DressController extends Controller
 
         // if everything seems fine this must be attached to make the updated strings to show in our index page
         $dress->update($data);
-        return redirect()->route('dresses.index')->with('status' , 'item updated successfully');
+        return redirect()->route('dresses.index')->with('status' , 'item updated successfully!! :)');
     }
 
     /**

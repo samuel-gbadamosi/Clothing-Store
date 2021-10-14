@@ -22,14 +22,12 @@
           </tr>
         </thead>
         <tbody>
-            @foreach ($vestiti as $item)
             <tr>
                 
              
 
                 
               </tr>
-            @endforeach
           
           
         </tbody>
