@@ -5,7 +5,7 @@
 
 @section('content')
 <div class="container">
-    <h1 style="padding-left:430px;"> Inserisci il tuo Vestito</h1>
+    <h1 style="padding-left:430px;"> Modify your Selected Item</h1>
     {{-- we added this pattern if error happens we have an alert message --}}
     
     {{-- we have to pass the root when updating or editing or form for it to work properly --}}
@@ -39,7 +39,7 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check out</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary mt-3">Modify</button>
         
 
     </form>

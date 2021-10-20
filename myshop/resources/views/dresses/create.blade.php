@@ -5,7 +5,7 @@
 
 @section('content')
 <div class="container">
-    <h1 style="padding-left:480px; color:lightblue"> Inserisci il tuo Vestito</h1>
+    <h1 style="padding-left:480px;  color:lightblue "> Insert your new Item</h1>
     {{-- we added this pattern if error happens we have an alert message --}}
     @if ($errors->any())
     <div class="alert alert-danger">
